@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    cursor: pointer;
+    transition: var(--btn-transition, all 0.2s ease);
+    background-color: var(--btn-bg, #2563eb);
+    border-radius: var(--btn-border-radius, 0);
+    color: var(--btn-color, #fff);
+    border: var(--btn-border, 0);
+    padding: var(--btn-padding, 0.75rem 1rem);
+}
+
+.button:hover {
+    background-color: var(--btn-hover, #1d4ed8);
+}
+
+.button-pill {
+    border-radius: 9999px;
+}
+
+.button-full-width {
+    width: 100%;
+}

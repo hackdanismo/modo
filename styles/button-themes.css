@@ -1,0 +1,21 @@
+.button {
+    --btn-transition: all 0.2s ease;
+    --btn-padding: 0.75rem 1rem;
+    --btn-border: 0;
+}
+
+.button-primary {
+    --btn-bg: #2563eb;
+    --btn-hover: #1d4ed8;
+    --btn-color: #fff;
+}
+
+.button-secondary {
+    --btn-bg: #e5e7eb;
+    --btn-hover: #d1d5db;
+    --btn-color: #1f2937;
+}
+
+.button-curved-border {
+    --btn-border-radius: 0.5rem;
+}
